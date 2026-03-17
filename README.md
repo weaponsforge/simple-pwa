@@ -3,6 +3,10 @@
 Simple PWA setup in a vanilla HTML/CSS/JS website.<br>
 Related to [cra-pwa](https://github.com/weaponsforge/cra-pwa) (React).
 
+### Demo
+
+https://weaponsforge.github.io/simple-pwa/
+
 ## Installation
 
 > [!NOTE]
