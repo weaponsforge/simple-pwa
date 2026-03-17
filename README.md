@@ -1,6 +1,6 @@
 ## simple-pwa
 
-Simple PWA setup in a vanilla HTML/CSS/JS website.
+Simple PWA setup in a vanilla HTML/CSS/JS website. Related to [cra-pwa](https://github.com/weaponsforge/cra-pwa) (React).
 
 ### Resources
 
