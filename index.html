@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Simple PWA</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <link href="main.css" rel="stylesheet" type="text/css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
   </style>
+  <link rel="manifest" href="manifest.json" />
 </head>
 <body>
   <main>
@@ -58,5 +60,11 @@
       </label>
     </footer>
   </main>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js')
+    }
+  </script>
 </body>
 </html>
